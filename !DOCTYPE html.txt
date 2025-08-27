@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Vegetable Export Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        .vegetables {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .veg-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            width: 250px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GreenHarvest Exports</h1>
+    <p>Fresh Vegetables Exported Worldwide</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#vegetables">Vegetables</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        At GreenHarvest Exports, our mission is to deliver the freshest and highest quality vegetables
+        to international markets. We work closely with local farmers to ensure sustainable and ethical farming practices.
+    </p>
+    <p>
+        Our business focuses on supplying bulk orders of fresh vegetables to distributors, retailers,
+        and food businesses across the globe.
+    </p>
+</section>
+
+<section id="vegetables">
+    <h2>Available Vegetables</h2>
+    <div class="vegetables">
+        <div class="veg-card">
+            <h3>Tomatoes</h3>
+            <p>Season: All Year</p>
+            <p>Packaging: 10kg cartons</p>
+        </div>
+        <div class="veg-card">
+            <h3>Carrots</h3>
+            <p>Season: Winter</p>
+            <p>Packaging: 5kg bags</p>
+        </div>
+        <div class="veg-card">
+            <h3>Green Beans</h3>
+            <p>Season: Spring to Autumn</p>
+            <p>Packaging: 8kg crates</p>
+        </div>
+        <!-- Add more vegetables here -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> +123-456-7890</p>
+    <p><strong>Email:</strong> info@greenharvestexports.com</p>
+    <p><strong>Address:</strong> 123 Farm Lane, AgriTown, Country</p>
+    <p><strong>WhatsApp:</strong> +123-456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 GreenHarvest Exports. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
